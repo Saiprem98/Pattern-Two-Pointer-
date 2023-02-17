@@ -52,3 +52,11 @@ def is_palindrome(s):
         return False
 
   return True
+
+Time Complexity:
+    # we technically don't have any nested loops
+    # just running the same loop from different points
+    #  so O(n)
+Space Complexity:
+    # not really using any data besides varaibles to store index
+    # constant space so O(1)
