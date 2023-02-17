@@ -65,3 +65,9 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+Time Complexity: 
+    # Array is traversed twice so O(n+n) = O(n)
+Space Complexity:
+    # O(n) since we copy string into list of characters
+    # since strings are immutable
